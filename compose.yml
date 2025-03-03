@@ -5,6 +5,7 @@ services:
     environment:
       VERSION: "10"
       USERNAME: "Kaoboobee"
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
