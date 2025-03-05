@@ -27,7 +27,7 @@ jobs:
     cap_add:
       - NET_ADMIN
     ports:
-      - 8006:8006
+      - 192.168.1.35:8006
       - 3389:3389/tcp
       - 3389:3389/udp
     restart: always
